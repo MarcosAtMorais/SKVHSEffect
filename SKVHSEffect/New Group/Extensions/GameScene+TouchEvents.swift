@@ -6,6 +6,8 @@
 //  Copyright © 2019 Marcos Morais. All rights reserved.
 //
 
+import SpriteKit
+
 /**
  
  Touch Event methods
