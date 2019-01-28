@@ -1,5 +1,5 @@
 
-vec2 curve(vec2 uv)
+vec2 applyCurve(vec2 uv)
 {
     uv = (uv - 0.5) * 2.0;
     uv *= 1.1;
@@ -14,7 +14,7 @@ void main()
 {
     vec2 q = gl_FragCoord.xy / iResolution.xy;
     vec2 uv = q;
-    uv = curve(uv);
+    uv = applyCurve(uv);
     uv.y = 1.0 - uv.y;
     vec3 col;
     float x = sin(0.3*u_time+uv.y*21.0)*sin(0.7*u_time+uv.y*29.0)*sin(0.3+0.33*u_time+uv.y*31.0)*0.0017;
