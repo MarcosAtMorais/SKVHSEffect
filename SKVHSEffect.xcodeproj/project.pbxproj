@@ -62,18 +62,11 @@
 		C6208E7821FF7C0C0080A65F /* SKVHSEffect */ = {
 			isa = PBXGroup;
 			children = (
+				C6208E9E21FF7E270080A65F /* Managers */,
+				C6208E9C21FF7DFD0080A65F /* Scenes */,
 				C6208E9921FF7DBB0080A65F /* Entities */,
 				C6208E9821FF7DB50080A65F /* Core */,
 				C6208E9121FF7CFB0080A65F /* Resources */,
-				C6208E7921FF7C0C0080A65F /* AppDelegate.swift */,
-				C6208E7F21FF7C0C0080A65F /* GameScene.swift */,
-				C6208E9421FF7D660080A65F /* GameScene+TouchEvents.swift */,
-				C6208E9621FF7DA30080A65F /* GameScene+Loops.swift */,
-				C6208E8121FF7C0C0080A65F /* GameViewController.swift */,
-				C6208E8321FF7C0C0080A65F /* Main.storyboard */,
-				C6208E8621FF7C0E0080A65F /* Assets.xcassets */,
-				C6208E8821FF7C0E0080A65F /* LaunchScreen.storyboard */,
-				C6208E8B21FF7C0E0080A65F /* Info.plist */,
 			);
 			path = SKVHSEffect;
 			sourceTree = "<group>";
@@ -90,6 +83,11 @@
 		C6208E9821FF7DB50080A65F /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				C6208E7921FF7C0C0080A65F /* AppDelegate.swift */,
+				C6208E8321FF7C0C0080A65F /* Main.storyboard */,
+				C6208E8621FF7C0E0080A65F /* Assets.xcassets */,
+				C6208E8821FF7C0E0080A65F /* LaunchScreen.storyboard */,
+				C6208E8B21FF7C0E0080A65F /* Info.plist */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -114,6 +112,33 @@
 				C6208E9221FF7D030080A65F /* Mockup.png */,
 			);
 			path = "Source Images";
+			sourceTree = "<group>";
+		};
+		C6208E9C21FF7DFD0080A65F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				C6208E9D21FF7E130080A65F /* Extensions */,
+				C6208E7F21FF7C0C0080A65F /* GameScene.swift */,
+			);
+			name = Scenes;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		C6208E9D21FF7E130080A65F /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C6208E9421FF7D660080A65F /* GameScene+TouchEvents.swift */,
+				C6208E9621FF7DA30080A65F /* GameScene+Loops.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C6208E9E21FF7E270080A65F /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				C6208E8121FF7C0C0080A65F /* GameViewController.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
