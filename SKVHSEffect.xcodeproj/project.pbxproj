@@ -16,6 +16,7 @@
 		C6208E9321FF7D030080A65F /* Mockup.png in Resources */ = {isa = PBXBuildFile; fileRef = C6208E9221FF7D030080A65F /* Mockup.png */; };
 		C6208E9521FF7D660080A65F /* GameScene+TouchEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6208E9421FF7D660080A65F /* GameScene+TouchEvents.swift */; };
 		C6208E9721FF7DA30080A65F /* GameScene+Loops.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6208E9621FF7DA30080A65F /* GameScene+Loops.swift */; };
+		C6208EA021FF809F0080A65F /* VHS_Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = C6208E9F21FF809F0080A65F /* VHS_Shader.fsh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		C6208E9221FF7D030080A65F /* Mockup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mockup.png; sourceTree = "<group>"; };
 		C6208E9421FF7D660080A65F /* GameScene+TouchEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+TouchEvents.swift"; sourceTree = "<group>"; };
 		C6208E9621FF7DA30080A65F /* GameScene+Loops.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameScene+Loops.swift"; sourceTree = "<group>"; };
+		C6208E9F21FF809F0080A65F /* VHS_Shader.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = VHS_Shader.fsh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		C6208E7821FF7C0C0080A65F /* SKVHSEffect */ = {
 			isa = PBXGroup;
 			children = (
+				C6208E8B21FF7C0E0080A65F /* Info.plist */,
 				C6208E9E21FF7E270080A65F /* Managers */,
 				C6208E9C21FF7DFD0080A65F /* Scenes */,
 				C6208E9921FF7DBB0080A65F /* Entities */,
@@ -87,7 +90,6 @@
 				C6208E8321FF7C0C0080A65F /* Main.storyboard */,
 				C6208E8621FF7C0E0080A65F /* Assets.xcassets */,
 				C6208E8821FF7C0E0080A65F /* LaunchScreen.storyboard */,
-				C6208E8B21FF7C0E0080A65F /* Info.plist */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -102,6 +104,7 @@
 		C6208E9A21FF7DC50080A65F /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
+				C6208E9F21FF809F0080A65F /* VHS_Shader.fsh */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -199,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6208EA021FF809F0080A65F /* VHS_Shader.fsh in Resources */,
 				C6208E9321FF7D030080A65F /* Mockup.png in Resources */,
 				C6208E8521FF7C0C0080A65F /* Main.storyboard in Resources */,
 				C6208E8721FF7C0E0080A65F /* Assets.xcassets in Resources */,
