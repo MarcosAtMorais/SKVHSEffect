@@ -29,7 +29,7 @@ class GameScene: SKScene {
         self.vhsShader = SKShader(fileNamed: "VHS_Shader.fsh")
         super.init(size: size)
         
-        self.vhsShader?.uniforms = [SKUniform(name: "iResolution", vectorFloat2: vector_float2(Float(self.frame.size.width), Float(self.frame.size.height))),
+        self.vhsShader?.uniforms = [SKUniform(name: "iResolution", vectorFloat2: vector_float2(Float(self.frame.size.width*2.85), Float(self.frame.size.height*2.85))),
                                     SKUniform(name: "iChannel0", texture: background.texture)]
     }
     

@@ -17,9 +17,17 @@ import SpriteKit
 extension GameScene {
     
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        self.background.shader = nil;
+        self.background.setScale(0.65)
+        
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+        
+        self.background.shader = self.vhsShader
+        self.background.setScale(1.0)
+        
     }
     
     override func touchesCancelled(_ touches: Set<UITouch>, with event: UIEvent?) {
